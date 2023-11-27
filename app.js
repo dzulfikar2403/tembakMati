@@ -3,15 +3,15 @@ let btnNo = document.getElementById('no');
 let wrapper = document.querySelector('.wrapper')
 
 btnYes.addEventListener('click',()=>{
-  let video = document.querySelector('.video'); 
-  video.style.display = 'block';
-
-  wrapper.style.display = 'none';
-  document.body.style.background = 'black';
-
-  let backSound = new Audio('img/jumpscare-101350.mp3');
-  backSound.play();
-});
+    let video = document.querySelector('.video'); 
+    video.style.display = 'block';
+    
+    wrapper.style.display = 'none';
+    document.body.style.background = 'black';
+    
+    let backSound = new Audio('img/jumpscare-101350.mp3');
+    backSound.play();
+  });
 
 //getBoundingClientRect : memberi info tentang lebar-tinggi suatu elemen dan posisi dari si elemennya. wajib mempunyai elemen
 let btnNoPos = btnNo.getBoundingClientRect();
