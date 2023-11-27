@@ -1,0 +1,90 @@
+* {
+  font-family: 'Ephesis', cursive;
+}
+
+body{
+  background: url('img/mdBg.jpg');
+  background-size: cover;
+  overflow: hidden;
+  /* height: 100%; */
+}
+
+
+
+.wrapper{
+  position: relative;
+  width: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header{
+  font-size: 34px;
+}
+
+.wrapperImg{
+  margin: 5px 0px;
+}
+
+.btnWrapper{
+  margin-top: 95px;
+}
+
+
+.subm{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  cursor: pointer;
+  margin: 24px;
+  padding: 10px;
+  background-color: snow;
+  height: 40px;
+  width: 100px;
+  color: rgb(246, 183, 193);
+  font-weight: bold;
+  border: 2px solid palevioletred;
+  border-radius: 9999px;
+}
+
+.subm2{
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  cursor: pointer;
+  margin: 24px;
+  padding: 10px;
+  background-color: snow;
+  height: 40px;
+  width: 100px;
+  color: rgb(246, 183, 193);
+  font-weight: bold;
+  border: 2px solid palevioletred;
+  border-radius: 9999px;
+}
+
+.video{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    font-size: 20px;
+  }
+
+  .wrapper{
+    top: 100px;
+  }
+
+  .video{
+    height: 100%;
+  }
+}
