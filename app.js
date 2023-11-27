@@ -27,4 +27,4 @@ btnNo.addEventListener('click',()=>{
 
 
 //Watermark
-console.log('Created by Dzulfikar XI PPLG 2. 28/11/2023');
+console.log('Created by Dzulfikar & Barra XI PPLG 2. 28/11/2023');
