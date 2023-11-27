@@ -9,7 +9,7 @@ btnYes.addEventListener('click',()=>{
   wrapper.style.display = 'none';
   document.body.style.background = 'black';
 
-  let backSound = new Audio('img/audio_ NATURE.mp3');
+  let backSound = new Audio('img/jumpscare-154489.mp3');
   backSound.play();
 });
 
