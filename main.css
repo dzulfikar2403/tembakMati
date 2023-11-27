@@ -6,7 +6,6 @@ body{
   background: url('img/mdBg.jpg');
   background-size: cover;
   overflow: hidden;
-  /* height: 100%; */
 }
 
 
@@ -14,7 +13,6 @@ body{
 .wrapper{
   position: relative;
   width: 100%;
-  /* border: 2px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
